@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'fontsLV';
+    src: url('fonts/lv.ttf') format('LV'),
+         url('fonts/lv.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* NAVBAR */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fontslv, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    padding: 0px 30px;
+    background-color: white;
+}
+
+.menu-gauche, .menu-droite{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 88px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+}
+
+.menu i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.recherche {
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.recherche i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.icons i {
+    font-size: 20px;
+    margin-right: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.icons a{
+    cursor: pointer;
+}
+
+.bag-counter {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* BODY */
+
+
+.photo-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.home {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Texte en bas au milieu de l'image */
+
+.video-text {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+
+.t2{
+    font-size: 30px;
+}
+
+.t3{
+    text-decoration: underline;
+}
+
+.video-text p {
+    margin: 0;
+}
+
+
+
+
+
+.produit {
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.produit h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.produit-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.produit-item {
+    width: 275px;
+    cursor: pointer;
+}
+
+.produit-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.produit-item p {
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #333;
+}
+
+
+
+
+.produit2 {
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.produit2-item {
+    width: 275px;
+}
+
+.produit2-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.produit2-item p {
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #333;
+}

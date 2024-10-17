@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louis Vuitton Site Officiel France | Sacs de luxe, Prêt-à-porter, parfums</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+        <!-- navbar -->
+
+    <nav class="navbar">
+
+    
+    <div class="menu-gauche">
+        <div class="menu">
+            <i class="fas fa-bars"></i>                 <!-- menu gauche -->
+            <span>Menu</span>
+        </div>
+
+        <div class="recherche">
+            <i class="fas fa-search"></i>
+            <span>Que recherchez-vous ?</span>          <!-- menu gauche -->
+        </div>
+
+    </div>
+
+        <div class="logo">
+            <h1>LOUIS VUITTON</h1>                      <!-- logo milieu -->
+        </div>
+
+
+    <div class="menu-droite">
+        <div class="icons">                             <!-- menu droite -->
+            <a>Contactez-nous</a>
+            <i class="far fa-heart"></i>
+            <i class="far fa-user"></i>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="bag-counter">0</span>
+        </div>
+    </div>
+
+    </nav>
+
+
+        <!-- body -->
+
+        <div class="photo-container">
+            <img class="home" src="img/home.png">
+
+            <div class="video-text">
+                <p class="t1">FEMME</p>
+                <p class="t2">Avant-Première exclusive : LV Ski 2024</p>
+                <p class="t3">Découvrez la Colllection</p>
+            </div>
+        </div>
+
+        <nav>
+
+                
+
+            <section class="produit">
+
+                <h1>Découvrez une sélection des créations de la Maison</h1>
+
+                <div class="produit-container">
+
+                    <div class="produit-item">
+                        <img src="img/img1.jpg">
+                        <p>Sacs Femme</p>
+                    </div>
+
+                    <div class="produit-item">
+                        <img src="img/img2.jpg">
+                        <p>Petite maroquinerie Femme</p>
+                    </div>
+
+                    <div class="produit-item">
+                        <img src="img/img4.jpg">
+                        <p>Parfums Femme</p>
+                    </div>
+
+                    <div class="produit-item">
+                        <img src="img/img3.jpg">
+                        <p>Bijoux Femme</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            
+        </nav>
+
+
+
+
+
+
+
+        <script>
+            // Script pour contrôler la vidéo
+            const video = document.getElementById("video");
+            const pauseButton = document.getElementById("pause-button");
+    
+            pauseButton.addEventListener("click", () => {
+                if (video.paused) {
+                    video.play();
+                    pauseButton.innerHTML = '<i class="fas fa-pause"></i>';
+                } else {
+                    video.pause();
+                    pauseButton.innerHTML = '<i class="fas fa-play"></i>';
+                }
+            });
+        </script>
+
+</body>
+</html>
